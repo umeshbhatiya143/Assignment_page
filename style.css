@@ -48,11 +48,14 @@ label:hover{
 }
 
 .f_heading:hover{
-    box-shadow: rgb(138, 139, 139);
+    background-color: blue;
+    color: beige;
 }
-
-.form_control{
-    width: auto;
+title{
+    box-shadow: 5px 5px solid black;
+}
+.title:hover{
+    color: blue;
 }
 
 .footer{
@@ -71,6 +74,6 @@ label:hover{
 
 @media screen and (max-width: 565px) {
    .container_form{
-    width: 350px;
+    width: 340px;
    }
   }
